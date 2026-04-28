@@ -7,9 +7,8 @@ export function Header({ onCapture, onSettings }) {
   return (
     <div className="flex items-center justify-between max-w-screen-xl mx-auto mb-4">
       <div className="flex items-center gap-4">
-        <img src="/logo.png" alt="Bourges Télévision" className="w-10 h-10 rounded-full flex-shrink-0" />
         <div>
-          <h1 className="text-xl font-bold text-gray-900 leading-tight">Bourges Télévision</h1>
+          <h1 className="text-xl font-bold text-gray-900 leading-tight">Planner</h1>
           <p className="text-xs text-gray-400 font-medium mt-0.5">{config.name}</p>
         </div>
       </div>
