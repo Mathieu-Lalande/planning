@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useCallback } from 'react';
 
 const DEFAULT_PLANNING = {
   id: 'default',
-  name: 'Planning BTV 2026',
+  name: 'Planner',
   startYear: 2026,
   startMonth: 3,
   monthCount: 8,
